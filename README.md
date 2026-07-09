@@ -6,6 +6,14 @@ Cited measures where your brand stands in the answers AI search actually gives, 
 
 👉 **[See who AI recommends in CRM →](https://willylam2222-bot.github.io/cited/leaderboard.html)** (a live example)
 
+## Live category leaderboards
+
+Who AI search actually recommends, from real buyer questions:
+
+- [CRM](https://willylam2222-bot.github.io/cited/leaderboard.html)
+- [Project management software](https://willylam2222-bot.github.io/cited/leaderboard-project-management.html)
+- [Email marketing software](https://willylam2222-bot.github.io/cited/leaderboard-email-marketing.html)
+
 ## Get your brand's free report
 
 Open an issue with your product + category and you'll get a free AI-visibility breakdown: which questions your buyers ask AI, what it recommends instead of you, who's winning your category, and the sources AI reads from.
