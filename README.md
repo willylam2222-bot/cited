@@ -16,6 +16,9 @@ Who AI search actually recommends, from real buyer questions — [browse all →
 - [AI writing assistant](https://willylam2222-bot.github.io/cited/leaderboard-ai-writing.html)
 - [Help desk software](https://willylam2222-bot.github.io/cited/leaderboard-help-desk.html)
 - [Website builder](https://willylam2222-bot.github.io/cited/leaderboard-website-builder.html)
+- [Password manager](https://willylam2222-bot.github.io/cited/leaderboard-password-manager.html)
+- [Video conferencing software](https://willylam2222-bot.github.io/cited/leaderboard-video-conferencing.html)
+- [Note taking app](https://willylam2222-bot.github.io/cited/leaderboard-note-taking.html)
 
 ## Get your brand's free report
 
