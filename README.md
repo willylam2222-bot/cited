@@ -8,11 +8,14 @@ Cited measures where your brand stands in the answers AI search actually gives, 
 
 ## Live category leaderboards
 
-Who AI search actually recommends, from real buyer questions:
+Who AI search actually recommends, from real buyer questions — [browse all →](https://willylam2222-bot.github.io/cited/leaderboards.html)
 
 - [CRM](https://willylam2222-bot.github.io/cited/leaderboard.html)
 - [Project management software](https://willylam2222-bot.github.io/cited/leaderboard-project-management.html)
 - [Email marketing software](https://willylam2222-bot.github.io/cited/leaderboard-email-marketing.html)
+- [AI writing assistant](https://willylam2222-bot.github.io/cited/leaderboard-ai-writing.html)
+- [Help desk software](https://willylam2222-bot.github.io/cited/leaderboard-help-desk.html)
+- [Website builder](https://willylam2222-bot.github.io/cited/leaderboard-website-builder.html)
 
 ## Get your brand's free report
 

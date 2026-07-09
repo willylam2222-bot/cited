@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://willylam2222-bot.github.io/cited/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://willylam2222-bot.github.io/cited/leaderboards.html</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://willylam2222-bot.github.io/cited/leaderboard.html</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://willylam2222-bot.github.io/cited/leaderboard-project-management.html</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://willylam2222-bot.github.io/cited/leaderboard-email-marketing.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://willylam2222-bot.github.io/cited/leaderboard-ai-writing.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://willylam2222-bot.github.io/cited/leaderboard-help-desk.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://willylam2222-bot.github.io/cited/leaderboard-website-builder.html</loc><changefreq>weekly</changefreq></url>
 </urlset>
