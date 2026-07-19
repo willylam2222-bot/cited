@@ -16,6 +16,10 @@ body{font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica
 .score .num{font-size:46px;font-weight:800;letter-spacing:-.03em;color:#d64545;line-height:1}
 .score .num small{display:block;font-size:13px;color:var(--mut);font-weight:600;margin-top:4px}
 .score .txt b{font-size:17px}
+.engines{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px}
+.engines .el{font-size:12.5px;color:var(--mut);font-weight:600}
+.echip{display:inline-flex;gap:7px;align-items:baseline;border:1px solid var(--line);border-radius:8px;padding:5px 11px;font-size:13px}
+.echip b{font-weight:600} .echip .ec{font-weight:800}
 h2{font-size:16px;margin:26px 0 4px;padding-top:22px;border-top:1px solid var(--line)}
 .hint{font-size:13px;color:var(--mut);margin-bottom:14px}
 table{width:100%;border-collapse:collapse;font-size:13.5px}
@@ -38,32 +42,39 @@ td.warn{color:var(--warn);font-weight:700;white-space:nowrap} td.ok{color:var(--
 .foot{padding:18px 32px;border-top:1px solid var(--line);font-size:12px;color:var(--mut)}
 </style></head><body><div class="doc">
 <div class="top"><div><div class="brand">Cited<span>.</span></div><div class="kind">AI Visibility Report</div></div>
-<div class="meta"><b>Subject:</b> Enpass<br><b>Category:</b> password manager<br><b>Date:</b> 2026-07-20 · <b>Engine:</b> Perplexity</div></div>
+<div class="meta"><b>Subject:</b> Enpass<br><b>Category:</b> password manager<br><b>Date:</b> 2026-07-20 · <b>Engine:</b> Perplexity + Google AI Overview</div></div>
 <div class="pad">
-<div class="score"><div class="num">0%<small>0 / 6 named</small></div>
-<div class="txt"><b>AI search never recommends Enpass.</b><br>Across the 6 questions your buyers ask before choosing, this is where you stand in the answer AI actually gives.</div></div>
+<div class="score"><div class="num">0%<small>0 / 12 named</small></div>
+<div class="txt"><b>AI search never recommends Enpass.</b><br>Across the 12 questions your buyers ask before choosing, this is where you stand in the answer AI actually gives.</div></div>
+<div class="engines"><span class="el">Where you stand, by engine:</span><span class="echip"><b>Perplexity</b><span class="ec" style="color:#d64545">0/6</span></span><span class="echip"><b>Google AI Overview</b><span class="ec" style="color:#d64545">0/6</span></span></div>
 
 <h2>1 · What your buyers asked AI — and what it answered</h2>
-<p class="hint">Real queries run against Perplexity, phrased the way a buyer asks at the moment of choosing.</p>
+<p class="hint">Real queries run against Perplexity + Google AI Overview, phrased the way a buyer asks at the moment of choosing.</p>
 <table><tr><th>Buyer's question</th><th>AI recommended</th><th>You?</th><th>Sources AI cited</th></tr>
-<tr><td class="q">best password manager for a startup or small team in 2026</td><td class="win">1Password · Bitwarden · Keeper</td><td class="no">Not named</td><td class="src">security.org</td></tr>
-<tr><td class="q">what is the best password manager for someone non-technical who wants something simple, not a blank prompt box</td><td class="win">1Password · NordPass · LastPass</td><td class="no">Not named</td><td class="src">nytimes.com, pcmag.com, reddit.com</td></tr>
-<tr><td class="q">top password manager tools most people recommend right now, and which is the single best pick</td><td class="win">1Password · Bitwarden · NordPass</td><td class="no">Not named</td><td class="src">guptadeepak.com, security.org</td></tr>
-<tr><td class="q">best password manager for a small business that wants the easiest setup with the least hassle</td><td class="win">Roboform · 1Password · NordPass</td><td class="no">Not named</td><td class="src">security.org</td></tr>
-<tr><td class="q">which password manager should I choose — give me your one top recommendation and why</td><td class="win">1Password · Bitwarden</td><td class="no">Not named</td><td class="src">&mdash;</td></tr>
-<tr><td class="q">best alternative to the market leader in password manager for a small team that hates bloated software</td><td class="win">Bitwarden · Roboform · NordPass</td><td class="no">Not named</td><td class="src">security.org, simplyit.biz</td></tr>
+<tr><td class="q">best password manager for a startup or small team in 2026</td><td class="win">Bitwarden · 1Password · NordPass</td><td class="no">Not named</td><td class="src">securden.com, learn.g2.com</td></tr>
+<tr><td class="q">what is the best password manager for someone non-technical who wants something simple, not a blank prompt box</td><td class="win">1Password · Dashlane · Bitwarden</td><td class="no">Not named</td><td class="src">privacylabpro.com</td></tr>
+<tr><td class="q">top password manager tools most people recommend right now, and which is the single best pick</td><td class="win">1Password · Bitwarden · NordPass</td><td class="no">Not named</td><td class="src">techtimes.com</td></tr>
+<tr><td class="q">best password manager for a small business that wants the easiest setup with the least hassle</td><td class="win">1Password · Bitwarden · NordPass</td><td class="no">Not named</td><td class="src">security.org, fastlancer.org</td></tr>
+<tr><td class="q">which password manager should I choose — give me your one top recommendation and why</td><td class="win">1Password</td><td class="no">Not named</td><td class="src">&mdash;</td></tr>
+<tr><td class="q">best alternative to the market leader in password manager for a small team that hates bloated software</td><td class="win">1Password · LastPass · Bitwarden</td><td class="no">Not named</td><td class="src">&mdash;</td></tr>
+<tr><td class="q">best password manager for a startup or small team in 2026</td><td class="win">1Password · Bitwarden · Dashlane</td><td class="no">Not named</td><td class="src">litepassword.com, youtube.com, cipherssecurity.com, techrepublic.com</td></tr>
+<tr><td class="q">what is the best password manager for someone non-technical who wants something simple, not a blank prompt box</td><td class="win">NordPass · 1Password</td><td class="no">Not named</td><td class="src">nytimes.com, techradar.com, uk.pcmag.com, reddit.com</td></tr>
+<tr><td class="q">top password manager tools most people recommend right now, and which is the single best pick</td><td class="win">1Password · Bitwarden · Proton Pass</td><td class="no">Not named</td><td class="src">youtube.com, pcmag.com, zapier.com, cybernews.com</td></tr>
+<tr><td class="q">best password manager for a small business that wants the easiest setup with the least hassle</td><td class="win">NordPass · 1Password · Keeper</td><td class="no">Not named</td><td class="src">techradar.com, security.org, nordpass.com, pcmag.com</td></tr>
+<tr><td class="q">which password manager should I choose — give me your one top recommendation and why</td><td class="win">1Password · Bitwarden</td><td class="no">Not named</td><td class="src">nytimes.com, reddit.com, security.org, youtube.com</td></tr>
+<tr><td class="q">best alternative to the market leader in password manager for a small team that hates bloated software</td><td class="win">Bitwarden · 1Password · Dashlane</td><td class="no">Not named</td><td class="src">securden.com, linkedin.com, spacestackworld.com, youtube.com</td></tr>
 </table>
 
 <h2>2 · Who AI hands your buyers to (share-of-voice)</h2>
 <p class="hint">Every competitor mention is a buyer sent somewhere that isn't you.</p>
-<ul class="sov"><li><span class="n">1Password</span><span class="bar" style="width:150px"></span><span class="c">6&times;</span></li>
-<li><span class="n">NordPass</span><span class="bar" style="width:130px"></span><span class="c">5&times;</span></li>
-<li><span class="n">Bitwarden</span><span class="bar" style="width:110px"></span><span class="c">4&times;</span></li>
-<li><span class="n">Roboform</span><span class="bar" style="width:110px"></span><span class="c">4&times;</span></li>
-<li><span class="n">Keeper</span><span class="bar" style="width:70px"></span><span class="c">2&times;</span></li>
-<li><span class="n">LastPass</span><span class="bar" style="width:50px"></span><span class="c">1&times;</span></li>
-<li><span class="n">Proton Pass</span><span class="bar" style="width:50px"></span><span class="c">1&times;</span></li>
-<li><span class="n">Dashlane</span><span class="bar" style="width:50px"></span><span class="c">1&times;</span></li>
+<ul class="sov"><li><span class="n">1Password</span><span class="bar" style="width:150px"></span><span class="c">12&times;</span></li>
+<li><span class="n">Bitwarden</span><span class="bar" style="width:120px"></span><span class="c">9&times;</span></li>
+<li><span class="n">NordPass</span><span class="bar" style="width:110px"></span><span class="c">8&times;</span></li>
+<li><span class="n">Dashlane</span><span class="bar" style="width:70px"></span><span class="c">4&times;</span></li>
+<li><span class="n">Keeper</span><span class="bar" style="width:70px"></span><span class="c">4&times;</span></li>
+<li><span class="n">Roboform</span><span class="bar" style="width:60px"></span><span class="c">3&times;</span></li>
+<li><span class="n">LastPass</span><span class="bar" style="width:60px"></span><span class="c">3&times;</span></li>
+<li><span class="n">Proton Pass</span><span class="bar" style="width:50px"></span><span class="c">2&times;</span></li>
 <li class="you"><span class="n">Enpass</span><span class="bar" style="width:4px"></span><span class="c">0&times;</span></li></ul>
 
 <h2>3 · The fix — how to start getting named</h2>
@@ -71,7 +82,7 @@ td.warn{color:var(--warn);font-weight:700;white-space:nowrap} td.ok{color:var(--
 <div class="fix">
 <div class="lever"><b>① Get onto the sources AI reads from</b>
 <p class="fh">AI built these answers from a small set of pages. A review, listing, or mention on these domains is the highest-leverage move — this is literally where the recommendations come from.</p>
-<ul class="srclist"><li><span class="n">security.org</span><span class="c">cited 4&times;</span></li><li><span class="n">nytimes.com</span><span class="c">cited 1&times;</span></li><li><span class="n">pcmag.com</span><span class="c">cited 1&times;</span></li><li><span class="n">reddit.com</span><span class="c">cited 1&times;</span></li><li><span class="n">guptadeepak.com</span><span class="c">cited 1&times;</span></li><li><span class="n">simplyit.biz</span><span class="c">cited 1&times;</span></li></ul></div>
+<ul class="srclist"><li><span class="n">youtube.com</span><span class="c">cited 4&times;</span></li><li><span class="n">security.org</span><span class="c">cited 3&times;</span></li><li><span class="n">securden.com</span><span class="c">cited 2&times;</span></li><li><span class="n">nytimes.com</span><span class="c">cited 2&times;</span></li><li><span class="n">techradar.com</span><span class="c">cited 2&times;</span></li><li><span class="n">reddit.com</span><span class="c">cited 2&times;</span></li></ul></div>
 <div class="lever"><b>② Mirror how your buyers actually ask</b>
 <p class="fh">Publish pages that answer these exact questions in these words — AI pattern-matches buyer phrasing to the content it cites.</p>
 <ul class="mirror"><li>&ldquo;best password manager for a startup or small team in 2026&rdquo;</li><li>&ldquo;what is the best password manager for someone non-technical who wants something simple, not a blank prompt box&rdquo;</li><li>&ldquo;top password manager tools most people recommend right now, and which is the single best pick&rdquo;</li></ul></div>
@@ -80,5 +91,5 @@ td.warn{color:var(--warn);font-weight:700;white-space:nowrap} td.ok{color:var(--
 </div>
 <div class="callout"><b>Why weekly, not once:</b> AI answers are non-deterministic and shift as models and sources update. Cited re-runs these prompts every week across ChatGPT, Perplexity, Gemini and Google AI Overviews, and alerts you the moment a competitor gains ground — or you start getting named.</div>
 </div>
-<div class="foot">Cited — AI search visibility for brands. Free diagnostic snapshot (1 engine, 6 prompts). Subscription = 4 engines, 20+ prompts, weekly, with competitor tracking + alerts.</div>
+<div class="foot">Cited — AI search visibility for brands. Free diagnostic snapshot (1 engine, 12 prompts). Subscription = 4 engines, 20+ prompts, weekly, with competitor tracking + alerts.</div>
 </div></body></html>
