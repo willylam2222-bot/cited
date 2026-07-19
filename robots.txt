@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Sitemap: https://willylam2222-bot.github.io/cited/sitemap.xml
+
+Disallow: /r/
